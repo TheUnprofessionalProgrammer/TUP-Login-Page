@@ -1,0 +1,88 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(/bodyBackground.jpg) no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.l-container{
+    padding-top: 3rem;
+    padding-bottom: 4.9rem;
+    background: url(/l-background.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 174px;
+    left: 50.6%;
+    width: 16.6%;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    transform: rotate(1.5deg);
+}
+
+.s-container{
+    padding-top: 2.1rem;
+    background: url(/s-background.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 174px;
+    left: 50.6%;
+    width: 16.6%;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    transform: rotate(1.5deg);
+}
+
+h1{
+    margin: auto;
+    font-size: 3rem;
+    border-bottom: 4px solid rgba(162, 162, 162, 0.4);
+}
+
+form{
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+
+input{
+    background: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+    margin: 10px 0px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+#age{
+    width: 15%;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin: auto;
+    cursor: pointer;
+    transition: 1s background ease-out;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.rememberme{
+    padding-right: 8px;
+}
+
+.color{
+    color: rgb(94, 194, 224);
+}
