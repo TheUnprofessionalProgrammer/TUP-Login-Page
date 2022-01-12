@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="../static/styles/main.css">
     <title>SignUp Page</title>
 </head>
 <body>
     
     <div class="s-container">
-        <h1 class="h1">
+        <h1 class="borderColor">
             Sign Up
         </h1>
-        <form action="form" method="post">
+        <form action="/sign" method="post">
             <label for="name">Full Name</label>
             <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required>
             <!-- <br> -->
@@ -31,8 +31,8 @@
                 <input type="number" name="age" class="age" min="1" max="100" required>
             </div>
             <!-- <br> -->
-            <input class="btn" type="button" value="SUBMIT">
-            <p>Already Have an account?<a class="color" href="./login.html">Login!</a></p>
+            <button class="btn" type="submit">SUBMIT</button>
+            <p>Already Have an account?<a class="color" href="./login">Login!</a></p>
         </form>
 
     </div>

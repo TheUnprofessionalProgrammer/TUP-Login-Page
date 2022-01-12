@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="../static/styles/main.css">
     <title>Login Page</title>
 </head>
 <body>
@@ -13,12 +13,9 @@
         <h1 class="h1">
             Login
         </h1>
-        <form action="form" method="post">
-            <label for="name">Username</label>
-            <input type="text" name="name" id="name" placeholder="Enter Your Username" required>
-            <!-- <br> -->
-            <!-- <label for="phone">Phone Number</label>
-            <input type="text" name="phone" id="phone" placeholder="Enter Your Phone Number" required> -->
+        <form action="/login" method="post">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="name" placeholder="Enter Your Username" required>
             <!-- <br> -->
             <label for="email">E-Mail Address</label>
             <input type="email" name="email" id="email" placeholder="Enter Your E-Mail Address" required>
@@ -28,11 +25,11 @@
             <!-- <br> -->
             <div class="remember">
                 <label class="rememberme" for="age">Remember Me:</label>
-                <input type="checkbox" name="remember" class="checkbox" min="1" max="100" required>
+                <input type="checkbox" name="remember" class="checkbox" min="1" max="100">
             </div>
             <!-- <br> -->
-            <input class="btn" type="button" value="SUBMIT">
-            <p>New User?<a class="color" href="./signup.html">Sign Up!</a></p>
+            <button id="submitButton" class="btn" type="submit">Submit</button>
+            <p>New User?<a class="color" href="./sign">Sign Up!</a></p>
         </form>
 
     </div>

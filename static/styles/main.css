@@ -1,6 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url(/bodyBackground.jpg) no-repeat;
+    background: url(../img/bodyBackground.jpg) no-repeat;
     background-size: cover;
     font-weight: bold;
     text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.4);
@@ -9,7 +9,7 @@ body{
 .l-container{
     padding-top: 3rem;
     padding-bottom: 4.9rem;
-    background: url(/l-background.jpg) no-repeat center center/cover;
+    background: url(../img/l-background.jpg) no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -23,7 +23,7 @@ body{
 
 .s-container{
     padding-top: 2.1rem;
-    background: url(/s-background.jpg) no-repeat center center/cover;
+    background: url(../img/s-background.jpg) no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -39,6 +39,9 @@ h1{
     margin: auto;
     font-size: 3rem;
     border-bottom: 4px solid rgba(162, 162, 162, 0.4);
+}
+.borderColor{
+    border-bottom: 4px solid rgba(55, 55, 55, 0.4);
 }
 
 form{
